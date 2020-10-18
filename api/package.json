@@ -1,0 +1,26 @@
+{
+  "name": "simple-media-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "nodemon --exec babel-node ./server.js localhost 3080",
+    "test": "jest **/*.test.js"
+  },
+  "author": "Jack",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.0",
+    "uuid": "^8.3.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "babel-jest": "^26.5.2",
+    "jest": "^26.5.3",
+    "nodemon": "^2.0.5"
+  }
+}
