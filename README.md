@@ -2,6 +2,8 @@
 
 Simplified upload video content and stream on browser.
 
+To initiate the project, run `./bin/init.sh`.
+
 To run the project, run `./bin/start.sh`.
 
 ## Project Details
